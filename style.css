@@ -1,14 +1,15 @@
 @font-face {
  font-weight: 300 700;
  font-style: normal;
- font-family: 'Fira Code VF';
- src: url('./FiraCode-VF.woff') format('woff-variations');
+ font-family: 'Fira Code';
+ src: url('https://randma.ru/FiraCode.woff') format('woff');
+ font-display: swap
 }
 
 :root {
  --bg-color: #fff;
  --text-active: #000;
- --green: rgb(52,199,89);
+ --green:rgb(35,134,60);
  --green-bg: rgba(50,204,88,.2);
  --orange: rgb(255,149,0);
 }
@@ -24,7 +25,7 @@
 
 body {
  display: flex;
- align-items:center;
+ align-items: center;
  justify-content: center;
  box-sizing: border-box;
  margin: 0;
@@ -32,7 +33,7 @@ body {
  height: 100vh;
  background: var(--bg-color);
  color: var(--text-active);
- font-family: 'Fira Code VF', monospace
+ font-family: 'Fira Code', monospace
 }
 
 h1 {
@@ -48,8 +49,8 @@ h1 {
 }
 
 @keyframes blink-caret {
- from, to { border-color: transparent }
- 50% { border-color: var(--orange) }
+ from, to {border-color: transparent}
+ 50% {border-color: var(--orange)}
 }
 
 a {

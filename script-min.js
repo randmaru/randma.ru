@@ -1,0 +1,1 @@
+let i=0;const positionId=document.getElementById("position"),txt="Junior web-developer",speed=50;function typeWriter(){i<txt.length&&(positionId.innerHTML+=txt.charAt(i),i++,setTimeout(typeWriter,50))}positionId.innerHTML="",setTimeout(typeWriter,300);
