@@ -8,17 +8,17 @@
 
 :root {
  --bg-color: #fff;
- --text-active: #000;
- --green:rgb(35,134,60);
- --green-bg: rgba(50,204,88,.2);
+ --text-active: #24292e;
+ --blue:#0366d6;
+ --blue-bg: rgba(3,101,214,.2);
  --orange: rgb(255,149,0);
 }
 
 @media (prefers-color-scheme: dark) {
  :root {
-  --bg-color: #121212;
-  --text-active: #fff;
-  --green: rgb(48,209,88);
+  --bg-color: #0d1117;
+  --text-active: #c9d1d9;
+  --blue: #58a6ff;
   --orange: rgb(255,159,10);
  }
 }
@@ -61,7 +61,7 @@ a {
 a:link,
 a:visited,
 a:active {
- color: var(--green)
+ color: var(--blue)
 }
 
 a:focus,
@@ -72,5 +72,5 @@ a:hover {
 a:focus,
 a:hover,
 a:active {
- background: var(--green-bg)
+ background: var(--blue-bg)
 }
