@@ -16,6 +16,14 @@ indent_size = 1
 indent_style = space
 indent_size = 2
 
+[*.scss]
+indent_style = tab
+indent_size = 2
+
 [*.md]
 indent_style = space
 indent_size = 2
+
+[*.php]
+indent_style = space
+indent_size = 1
